@@ -2,10 +2,14 @@
 import './App.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Project from './components/Project';
-import Content from './components/Content';
+// import Content from './components/Content';
+import { Outlet, useLocation } from 'react-router-dom';
+
+
 
 function App() {
+
+  const currentPage = useLocation().pathname;
 
   const appStyle = {
     display: 'flex',
@@ -15,11 +19,16 @@ function App() {
 
   return (
     <div style={appStyle}>
-      <Header />
-      <Content />
-      <Footer />
+      <Header currentPage={currentPage}>
+      </Header>
+      {/* <Content /> */}
+      {/* <Footer /> */}
+      <Outlet/>
     </div>
   )
 }
 
 export default App;
+
+
+

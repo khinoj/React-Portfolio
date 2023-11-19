@@ -1,17 +1,17 @@
-const Footer = () => {
+// const Footer = () => {
 
-    const ftStyle = {
-        
-    }
+//     const ftStyle = {
 
-    return (
-        <footer>
-            <ul>
-                <li>Github</li>
-                <li>LinkedIn</li>
-            </ul>
-        </footer>
-    )
-}
+//     }
 
-export default Footer;
+//     return (
+//         <footer>
+//             <ul>
+//                 <li>Github</li>
+//                 <li>LinkedIn</li>
+//             </ul>
+//         </footer>
+//     )
+// }
+
+// export default Footer;

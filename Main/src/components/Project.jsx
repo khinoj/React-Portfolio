@@ -1,9 +1,9 @@
-const Project = () => {
+
+
+export default function Project () {
     return (
         <main>
             <h1> hi </h1>
         </main>
-    )
+    );
 }
-
-export default Project;
