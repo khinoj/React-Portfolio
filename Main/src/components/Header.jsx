@@ -41,12 +41,12 @@ const Header = () => {
                     </li>
                 </ul>
             </header>
-            <footer>
+            {/* <footer>
             <ul>
                 <li>Github</li>
                 <li>LinkedIn</li>
             </ul>
-        </footer>
+        </footer> */}
         </>
 
     );
