@@ -1,6 +1,4 @@
-
-
-const Project = () => {
+const Resume = () => {
     return (
         <main>
             <h1> hi </h1>
@@ -8,4 +6,4 @@ const Project = () => {
     );
 }
 
-export default Project;
+export default Resume;

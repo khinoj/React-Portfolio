@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Content from './components/Content.jsx'
 import Header from './components/Header.jsx'
 import Project from './components/Project.jsx'
+import Resume from './components/Resume.jsx'
 // import './index.css'
 
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
@@ -29,10 +30,10 @@ const router = createBrowserRouter([
         path: '/Project',
         element: <Project />,
       },
-      // {
-      //   path: '/Contact',
-      //   element: <Contact />,
-      // },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      },
     ],
   },
 ]);

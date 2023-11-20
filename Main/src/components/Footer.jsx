@@ -5,7 +5,7 @@ const Footer = () => {
     }
 
     return (
-        <footer>
+        <footer className="fs-3 text"> 
             <ul>
                 <li>Github</li>
                 <li>LinkedIn</li>

@@ -39,14 +39,11 @@ const Header = () => {
                     <li>
                         <Link to="/Project">Project</Link>
                     </li>
+                    <li>
+                        <Link to="/Resume">Resume</Link>
+                    </li>
                 </ul>
             </header>
-            {/* <footer>
-            <ul>
-                <li>Github</li>
-                <li>LinkedIn</li>
-            </ul>
-        </footer> */}
         </>
 
     );
