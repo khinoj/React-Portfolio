@@ -2,51 +2,18 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 
-    const headerStyle = {
-        backgroundColor: 'grey',
-        color: 'black',
-        padding: 10,
-        textAlign: 'center',
-    };
-
-    const h1Style = {
-        fontSize: '2em',
-    };
-
-    const liStyle = {
-        display: 'inline-block',
-        margin: '0 10px',
-    };
-
-    const maStyle = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: '22px',
-        textAlign: 'center',
-        backgroundColor: 'lightblue',
-        flex: '1 0 auto',
-    }
 
     return (
-        <>
-            <header style={headerStyle}>
-                <h1 style={h1Style}>Kris Portfolio</h1>
-                <ul>
-                    <li>
-                        <Link to="/">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/Project">Project</Link>
-                    </li>
-                    <li>
-                        <Link to="/Resume">Resume</Link>
-                    </li>
-                </ul>
-            </header>
-        </>
-
+        <nav className="navbar navbar-expand-lg d-flex flex-column align-items-center" style={{background: 'linear-gradient(to bottom, #808080, #FFFFFF)'}}>
+            <a className="navbar-brand mb-0 h1" href="#" style={{ fontSize: '2em' }}>Kris Portfolio</a>
+            <div className="navbar-nav d-flex flex-row">
+                <Link className="nav-link text-dark" to="/" style={{ marginRight: '20px', fontSize: '1.5em' }}>About</Link>
+                <Link className="nav-link text-dark" to="/Project" style={{ marginRight: '20px', fontSize: '1.5em' }}>Project</Link>
+                <Link className="nav-link text-dark" to="/Resume" style={{ fontSize: '1.5em' }}>Resume</Link>
+            </div>
+        </nav>
     );
 }
+
 
 export default Header;

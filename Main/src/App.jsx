@@ -14,6 +14,7 @@ function App() {
   const appStyle = {
     display: 'flex',
     flexDirection: 'column',
+    justifyContent: 'space-between',
     height: '100vh',
   }
 
