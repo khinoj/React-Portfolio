@@ -1,12 +1,19 @@
 # React Portfolio
 
-## User Story
+## Table of Content
+  1. [User_Story](#user_story)
+  2. [Acceptance_Criteria](#acceptance_criteria)
+  3. [Badge](#badge)
+  4. [License](#license)
+  5. [Repo](#repo)
 
+
+## User_Story
 - AS AN employer looking for candidates with experience building single-page applications
 - I WANT to view a potential employee's deployed React portfolio of work samples
 - SO THAT I can assess whether they're a good candidate for an open position
 
-## Acceptance Criteria
+## Acceptance_Criteria
 - GIVEN a single-page application portfolio for a web developer
 - WHEN I load the portfolio
 - THEN I am presented with a page containing a header, a section for content, and a footer
@@ -33,12 +40,11 @@
 - WHEN I view the footer
 - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
+## Badge
+- ![License: MIT License](https://img.shields.io/badge/License-MIT.0-red)
 
-## Components Needed
+## License
+- https://opensource.org/license/mit/
 
-- Header
-- Navigation
-- Project
-- Footer
-
-
+## Repo
+- https://github.com/khinoj/React-Portfolio
