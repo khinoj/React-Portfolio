@@ -6,6 +6,7 @@
   3. [Badge](#badge)
   4. [License](#license)
   5. [Repo](#repo)
+  6. [Site](#site)
 
 
 ## User_Story
@@ -48,3 +49,6 @@
 
 ## Repo
 - https://github.com/khinoj/React-Portfolio
+
+## Site
+- https://main--calm-paprenjak-fc3087.netlify.app/
