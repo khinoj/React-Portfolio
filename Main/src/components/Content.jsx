@@ -9,7 +9,7 @@ const Content = () => {
 
     return (
         <main className="d-flex justify-content-center align-items-center flex-column mt-0" style={{backgroundColor: 'lightblue', flex: '.75 1 auto'}}>
-            <img src="./public/images/image1.jpg" style={imageStyle} alt="Kris Image" />
+            <img src="./images/image1.jpg" style={imageStyle} alt="Kris Image" />
             <br></br>
             <p style={{fontSize: '22px', textAlign: 'center'}}>
                 My Name is Kris Hinojosa and I'm a software developer. <br></br>
