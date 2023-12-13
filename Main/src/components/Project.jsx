@@ -7,7 +7,7 @@ const Project = () => {
         { image: './images/project-2.jpg', text: 'Day-Scheduler', link: 'https://khinoj.github.io/Day-Scheduler/' },
         { image: './images/project-3.avif', text: 'PWA-Text-Editor', link: 'https://pwa-text-editor-homework-7186e595f644.herokuapp.com/' },
         { image: './images/project-4.jpg', text: 'Employee Tracker', link: 'https://github.com/khinoj/Employee_Tracker' },
-        { image: './images/coming-soon.jpg', text: 'Coming Soon!', link: '' },
+        { image: './images/project-5.jpeg', text: 'Endor Fitness!', link: 'https://next-level-fitness.onrender.com/' },
         { image: './images/coming-soon.jpg', text: 'Coming Soon!', link: '' },
     ];
 
